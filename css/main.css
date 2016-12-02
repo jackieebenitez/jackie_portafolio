@@ -1,0 +1,181 @@
+/*universal*/
+*{
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.bg-color{
+    background-color:#fafafa;
+}
+
+/*text sizes*/
+.tx-450{
+	font-size: 450%;
+}
+.tx-250{
+	font-size: 250%
+}
+.tx-100{
+	font-size: 130%
+}
+
+/*margenes*/
+.mg-top10{
+	margin-top: 10%
+}
+.mg-top15{
+	margin-top: 16%
+}
+.mg-top5{
+	margin-top:6%;
+}
+.mg-top3{
+	margin-top: 2%
+}
+
+.z-index{
+    z-index: -1;
+}
+
+/*opacity en el menú*/
+.bg-yellow{
+	background-color: rgba(255,255,0,0.6);
+	padding-bottom: .5%;
+	z-index: -1;
+}
+
+.boton{
+	background-color: black;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*empieza hover*/
+
+#project1,#project2,#project3,#project4,#project5,#project6,#info{
+	height:25em;
+	width:25em;
+	background-size: cover;
+	margin-right:auto;
+	margin-left: auto;
+}
+#project1{
+    background-image: url("../projects/kane/kanetheme.jpg");
+}
+#project2{
+    background-image: url("../projects/eco/eco.png");
+}
+#project3{
+    background-image: url("../projects/coder/coder.png");
+}
+#project5{
+    background-image: url("../projects/ogilvysa/desktop_web.jpg");
+}
+
+#info{
+	background-color:rgba(255,255,255,0.9);
+	border: grey;
+	opacity:0;
+	-webkit-transition:opacity:0.2s;
+	padding-top:45%;
+}
+#project1:hover #info,#project2:hover #info,#project3:hover #info,#project4:hover #info, #project5:hover #info, #project6:hover #info{
+	opacity:1;
+}
+
+/*shadow*/
+.shadow{
+    box-shadow: 5px 5px 5px #e1e1e1;
+}
+
+/*Font colors*/
+.red{
+	color:rgb(226,0,0);
+}
+.blue{
+	color:#0800FF;
+}
+.green{
+	color:#0CC100;
+}
+
+
+hr{
+	width:10%;
+}
+
+/*tamaño de las imagenes del modal*/
+.img-modal{
+	height:100%;
+	width:100%;
+}
+
+
+/*rotate img*/
+.heart{
+	position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 90px;
+    height: 90px;
+    z-index: 1;
+}
+
+.cat {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+}
+
+.star{
+	position: absolute;
+    top: 13%;
+    left: 47%;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+
+.planet{
+	position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+.world{
+	position: absolute;
+    top: 24%;
+    left: 75%;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+.hand{
+	position: absolute;
+    top: 60%;
+    left: 78%;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+.flor{
+	position: absolute;
+    top: 40%;
+    left: 90%;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+
